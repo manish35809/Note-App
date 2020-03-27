@@ -10,11 +10,12 @@ export default class layout extends Component {
 
     e.preventDefault()
     
+    let realPass = "manish159"
     let nowPass = document.getElementById('pass')
     let new_tab = document.getElementById('app')
     let verBtn = document.getElementById('verify_btn')
 
-    if(nowPass.value === process.env.PASS){
+    if(nowPass.value === realPass){
       new_tab.style = "display: block"
       nowPass.style = "display: none"
       verBtn.style = "display: none"
