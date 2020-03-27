@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rebeccapurple;
+  background-image: linear-gradient(to right, rebeccapurple, purple);
+}
+
+.bg-theme {
+  background-color: white;
+}
+
+.app_box {
+  display: none;
+}
+
+.cursor_hand {
+  cursor: pointer;
+}
